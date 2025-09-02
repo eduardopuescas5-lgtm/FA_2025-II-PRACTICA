@@ -12,6 +12,9 @@ namespace SEMANA1_C_
         {
             ejer1();
             Console.ReadKey();
+
+            ejer2 ();
+            Console.ReadKey();
         }
 
         static void ejer1()
@@ -29,6 +32,19 @@ namespace SEMANA1_C_
         }
         static void ejer2()
         {
+            Console.Write("Ingrese numero x: ");
+            int x = int.Parse( Console.ReadLine() );
+
+            Console.Write("Ingrese numero y: ");
+            int y = Convert.ToInt32( Console.ReadLine());
+
+            Console.WriteLine("Suma: "+(x+y));
+            Console.WriteLine("Resta: " + (x + y));
+            Console.WriteLine("Multiplicacion: " + (x + y));
+            Console.WriteLine("Divison: " + (x + y));
+
+
+
 
         }
          static void ejer3()
