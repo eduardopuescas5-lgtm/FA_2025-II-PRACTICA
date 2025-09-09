@@ -38,6 +38,8 @@ namespace SEMANA1_C_
             Console.Write("Ingrese numero y: ");
             int y = Convert.ToInt32( Console.ReadLine());
 
+            double resu = (double)x / (double)y;
+
             Console.WriteLine("Suma: "+(x+y));
             Console.WriteLine("Resta: " + (x + y));
             Console.WriteLine("Multiplicacion: " + (x + y));
