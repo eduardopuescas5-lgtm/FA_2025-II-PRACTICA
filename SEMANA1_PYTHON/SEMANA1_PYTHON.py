@@ -3,8 +3,10 @@ def ejer1(): #Creando metodo ejer1
     carrera = input("Ingrese su carrera: ")
 
     print(f"\n{nombre}, bienvenido a FA de {carrera}")
-    
 def ejer2():
+    print("\"Eduardo\"")
+
+def ejer3():
       x = int(input("Ingrese el valor de x: "))
       y = int(input("ingrese el valor de y: "))
 
